@@ -4,27 +4,27 @@ window.onload = async function () {
 
 
   async function loadHtmlContent() {
-    const response = await fetch('content.html');
+    const response = await fetch('/Profile/content.html');
     const htmlContent = await response.text();
     return htmlContent;
   }
   async function loadHtmlContent1() {
-    const response = await fetch('content1.html');
+    const response = await fetch('/Profile/content1.html');
     const htmlContent1 = await response.text();
     return htmlContent1;
   }
   async function loadHtmlContent2() {
-    const response = await fetch('content2.html');
+    const response = await fetch('/Profile/content2.html');
     const htmlContent2 = await response.text();
     return htmlContent2;
   }
   async function loadHtmlContent3() {
-    const response = await fetch('content3.html');
+    const response = await fetch('/Profile/content3.html');
     const htmlContent3 = await response.text();
     return htmlContent3;
   }
   async function loadHtmlContent4() {
-    const response = await fetch('content4.html');
+    const response = await fetch('/Profile/content4.html');
     const htmlContent4 = await response.text();
     return htmlContent4;
   }
